@@ -7,18 +7,26 @@
 ### 시작
 1. new repository 생성 (with GitHub Desktop)
 2. npm init
-```npm init```
+```
+npm init
+```
 3. dependencies install
-```npm i express ejs```
-```npm i --save-dev nodemon dotenv```
-```npm i bcrypt```
-```npm i passport passport-local express-session express-flash```
-```npm i method-override```
+```
+npm i express ejs
+npm i --save-dev nodemon dotenv
+npm i bcrypt
+npm i passport passport-local express-session express-flash
+npm i method-override
+```
 4. package.json update
-```"devStart": "nodemon server.js```
+```
+"devStart": "nodemon server.js
+```
 5. server.js 생성
 6. 서버 기동 테스트
-```npm run devStart```
+```
+npm run devStart
+```
 
 ### Passport 사용
 `server.js`
